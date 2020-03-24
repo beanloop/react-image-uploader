@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "types": ["jest"],
+      "outDir": "./lib",
+      "target": "ESNext",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "skipDefaultLibCheck": true,
+      "strictNullChecks": true,
+      "esModuleInterop": true,
+      "removeComments": true,
+      "declaration": true,
+      "sourceMap": true,
+      "jsx": "react",
+      "typeRoots": [
+        "index.d.ts",
+        "node_modules/@types"
+      ]
+    },
+    "include": [
+      "./src/**/*.tsx",
+      "./src/**/*.ts",
+      "__tests__/**/*.spec.tsx"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+    "types": [
+      "jest"
+    ]
+}
